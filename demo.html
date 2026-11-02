@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17191d">
+  <meta name="description" content="Try a free four-question SAT practice preview from SolveTheory.">
+  <title>Try SolveTheory — 4-question preview</title>
+  <link rel="icon" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./beta.css">
+  <script type="module" src="./site.js"></script>
+  <script defer src="./beta-demo.js"></script>
+</head>
+<body data-world="city">
+  <div class="beta-shell">
+    <header class="beta-header">
+      <a href="./" class="brand" aria-label="SolveTheory home"><img class="brand-icon" src="./solvetheory-panda-icon.svg" width="35" height="35" alt=""><span>SolveTheory</span></a>
+      <div class="beta-header-right"><a href="./" class="beta-exit">← Home</a><span class="beta-tag">PUBLIC PREVIEW</span></div>
+    </header>
+    <main class="beta-main">
+      <div class="beta-intro">
+        <p class="beta-eyebrow">LESS READING. MORE DOING.</p>
+        <h1>Try a little.<br><em>Grow a lot.</em></h1>
+        <p>Four original SAT-style questions. Immediate feedback and a small garden that grows as you answer correctly.</p>
+      </div>
+      <div class="beta-layout">
+        <section class="beta-quiz" aria-label="SAT question preview">
+          <div class="quiz-header"><span class="quiz-mode">PRACTICE PREVIEW</span><span id="question-number">00 / 04</span></div>
+          <div id="question-area">
+            <div class="quiz-skill">READING &amp; MATH</div>
+            <h2>Ready to try SolveTheory?</h2>
+            <p>Answer four questions and watch your little world grow.</p>
+            <button type="button" class="beta-primary" id="start-preview">Start preview <span aria-hidden="true">→</span></button>
+          </div>
+        </section>
+        <aside class="beta-world" aria-label="Illustrative study progress">
+          <div class="beta-world-heading"><span>YOUR GARDEN</span><span id="beta-level">LVL 01</span></div>
+          <div class="beta-scene">
+            <div class="beta-sun"></div><div class="beta-hill"></div>
+            <img class="beta-panda" src="./panda.svg" alt="Cartoon panda companion">
+            <span class="beta-flower" id="flower-one" aria-hidden="true">✿</span>
+            <span class="beta-flower" id="flower-two" aria-hidden="true">✿</span>
+            <span class="beta-flower" id="flower-three" aria-hidden="true">✿</span>
+            <span class="beta-flower" id="flower-four" aria-hidden="true">✿</span>
+          </div>
+          <div class="beta-xp"><span id="beta-xp">0 XP</span><span>Demo progress</span></div>
+          <div class="beta-progress" role="presentation"><div id="beta-progress-fill"></div></div>
+          <p class="beta-world-note">This is a browser-only preview. XP here is illustrative, not saved to a full account.</p>
+        </aside>
+      </div>
+      <p class="beta-disclaimer">Independent SAT practice. Not affiliated with College Board. Full accounts, school leaderboards and cloud-saved progress require the separate SolveTheory backend.</p>
+    </main>
+  </div>
+</body>
+</html>
